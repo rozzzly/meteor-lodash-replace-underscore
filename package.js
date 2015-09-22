@@ -8,11 +8,10 @@ Package.describe({
 Npm.depends({'lodash': '3.10.1'});
 
 Package.onUse(function(api) {
-    api.use('underscore');
     api.use('cosmos:browserify');
 
     api.addFiles('client.browserify.js', 'client');
     api.addFiles('server.js', 'server');
 
-    api.export(['_', 'lodash', '_underscoreBackup'], ['client', 'server']);
+    api.export('lodash', ['client', 'server']);
 });
