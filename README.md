@@ -44,6 +44,8 @@ It would be awesome if you guys would post issues or pull-requests to the [`NOTE
 
 My hope is that Meteor will get a head start by using this information to (hopefully) transition to Lodash.
 
-### Credit
+### Credits
 
-This code is implemented by using the code from [here](https://github.com/stevezhu/meteor-lodash).
+This for is just an updated fork of [**[rclai/meteor-lodash-replace-underscore]**](https://github.com/rclai/meteor-lodash-replace-underscore) and that code was implemented by using the code from [here](https://github.com/stevezhu/meteor-lodash).
+
+
