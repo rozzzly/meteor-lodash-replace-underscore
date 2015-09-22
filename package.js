@@ -1,7 +1,7 @@
 Package.describe({
   name: 'underscore',
   summary: "Collection of small helpers: _.map, _.each, ...",
-  version: '4.0.0',
+  version: '1.0.4', // must be semver of targeted underscore package to inpersonate
   git: 'https://github.com/rozzzly/meteor-lodash-replace-underscore'
 });
 
