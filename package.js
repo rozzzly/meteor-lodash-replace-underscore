@@ -1,6 +1,6 @@
 Package.describe({
     name: 'rozzzly:lodash',
-    summary: "Collection of small helpers: _.map, _.each, ...",
+    summary: 'Collection of small helpers: _.map, _.each, ...',
     version: '3.10.1',
     git: 'https://github.com/rozzzly/meteor-lodash-replace-underscore'
 });
