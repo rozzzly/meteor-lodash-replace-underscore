@@ -5,13 +5,11 @@ Package.describe({
     git: 'https://github.com/rozzzly/meteor-lodash-replace-underscore'
 });
 
+
 Npm.depends({'lodash': '3.10.1'});
 
 Package.onUse(function(api) {
-    api.use('cosmos:browserify');
+    api.use('universe:modules-npm');
 
-    api.addFiles('client.browserify.js', 'client');
-    api.addFiles('server.js', 'server');
-
-    api.export('lodash', ['client', 'server']);
+    api.addFiles('deps.npm.json', ['client', 'server']);
 });
