@@ -5,7 +5,6 @@ Package.describe({
     git: 'https://github.com/rozzzly/meteor-lodash-replace-underscore'
 });
 
-
 Npm.depends({'lodash': '3.10.1'});
 
 Package.onUse(function(api) {
